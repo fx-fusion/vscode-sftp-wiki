@@ -53,7 +53,7 @@
   }，
  
   // number - Lower concurrency could get more stability because some client/server have some sort of configured/hard coded limit. 
-  concurrency: 512
+  concurrency: 4
 }
 ```
 ### SFTP only Config
@@ -113,8 +113,5 @@
   
   // object - Additional options to be passed to tls.connect(). Default: (null) see https://nodejs.org/api/tls.html#tls_tls_connect_options_callback
   secureOptions: null, 
-
-  // boolean - ftp passive mode
-  passive: false, 
 }
 ```
