@@ -34,7 +34,7 @@
   // boolean - Download the file from the remote server whenever it is opened 
   downloadOnOpen: false,
  
-  // string - Set to 'update' so 'sync command' will only affect thoes files exist in both local and server. Set to 'full', 'sync' will be same as 'download/upload' besides deleting file not exist in origin from target.
+  // string - Set to 'update' so 'sync command' will only affect those files exist in both local and server. Set to 'full', 'sync' will be same as 'download/upload' besides deleting file not exist in origin from target.
   syncMode: 'update',
 
   // string[] - Same behavior as gitignore, all path reltative to context of the current config
