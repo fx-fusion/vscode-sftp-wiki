@@ -101,7 +101,10 @@
       "hmac-sha2-512",
       "hmac-sha1"
     ]
-  }
+  },
+
+  // Absolute path to your SSH config file.
+  sshConfigPath: '~/.ssh/config'
 }
 ```
 
