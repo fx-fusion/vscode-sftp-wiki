@@ -26,3 +26,12 @@ func(fspaths: string[])
 ## sftp.download
 ### KeyBindings Args
 func(fspaths: string[])
+
+# Alt Commands
+An alternative command can be found when pressing `Alt` while opening a menu.
+
+## Force Download
+Download file but disregard ignore rules.
+
+## Force Upload
+Upload file but disregard ignore rules.
