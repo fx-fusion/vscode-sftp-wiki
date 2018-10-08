@@ -22,3 +22,7 @@ Same as `Sync To Remote`, but in the opposite direction.
 ## sftp.upload
 ### KeyBindings Args
 func(fspaths: string[])
+
+## sftp.download
+### KeyBindings Args
+func(fspaths: string[])
