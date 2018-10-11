@@ -1,3 +1,3 @@
 
 * [Config](config)
-* [Command](command)
+* [Commands](commands)
