@@ -1,7 +1,7 @@
 ## SFTP: Config
 Create a new config file for a selected project.
 
-## Set Profile
+## Set Profile ⌨️
 Set an active profile
            
 ### KeyBindings Args
@@ -19,13 +19,15 @@ Sync local directory to remote, only available for a directory. Copy common file
 ## SFTP: Sync To Local
 Same as `Sync To Remote`, but in the opposite direction.
 
-## sftp.upload
+## sftp.upload ⌨️
 ### KeyBindings Args
 func(fspaths: string[])
 
-## sftp.download
+## sftp.download ⌨️
 ### KeyBindings Args
 func(fspaths: string[])
+
+***
 
 # Alt Commands
 An alternative command can be found when pressing `Alt` while opening a menu.
