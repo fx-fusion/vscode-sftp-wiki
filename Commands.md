@@ -17,11 +17,15 @@ Download the remote version of the current file and overwrite the local copy.
 1. Any files that exist on both local and remote that have a different timestamp between local and remote are copied over.
 2. Any files that only exist on the local are copied over.
 
+You can change the default behavior by [syncOption](https://github.com/liximomo/vscode-sftp/wiki/Config#syncoption).
+
 ## SFTP: Sync Remote -> Local
 Same as `Sync Local -> Remote`, but in the opposite direction.
 
 ## SFTP: Sync Both Directions
 Compare file modification times, and will always perform the action that causes the newest file to be present in both locations.
+
+*Only [skipCreate](https://github.com/liximomo/vscode-sftp/wiki/Config#syncoptionskipcreate) and [ignoreExisting](https://github.com/liximomo/vscode-sftp/wiki/Config#syncoptionignoreexisting) are valid for this command.*
 
 ## sftp.upload ⌨️
 Upload file or folders.
