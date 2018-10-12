@@ -1,29 +1,37 @@
 ## SFTP: Config
-Create a new config file for a selected project.
+Create a new config file for a project.
 
 ## Set Profile ⌨️
-Set an active profile
+Set the current profile.
            
 ### KeyBindings Args
 func(profileName: string)
 
 ## SFTP: Upload Active File
-Upload active file to remote, overwriting the remote one.
+Upload the current file.
 
 ## SFTP: Download Active File
-Same as `Upload Active File`, but in the opposite direction.
+Download the remote version of the current file and overwrite the local copy.
 
-## SFTP: Sync To Remote
-Sync local directory to remote, only available for a directory. Copy common files (that exist on both sides) from local dir to remote, overwriting destination. (If syncMode is set to `full`, files that exist only on the local side will be created remotely, and files that exist only on the remote side will be deleted. The remote will be exactly the same as the local after `sync`.)
+## SFTP: Sync Local -> Remote
+1. Any files that exist on both local and remote that have a different timestamp between local and remote are copied over.
+2. Any files that only exist on the local are copied over.
 
-## SFTP: Sync To Local
-Same as `Sync To Remote`, but in the opposite direction.
+## SFTP: Sync Remote -> Local
+Same as `Sync Local -> Remote`, but in the opposite direction.
+
+## SFTP: Sync Both Directions
+Compare file modification times, and will always perform the action that causes the newest file to be present in both locations.
 
 ## sftp.upload ⌨️
+Upload file or folders.
+
 ### KeyBindings Args
 func(fspaths: string[])
 
 ## sftp.download ⌨️
+Download file or folders.
+
 ### KeyBindings Args
 func(fspaths: string[])
 
