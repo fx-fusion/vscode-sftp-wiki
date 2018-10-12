@@ -68,13 +68,25 @@ boolean - Download the file from the remote server whenever it is opened
 
 false
 
-### syncMode
+### syncOption
 
-string - Set to 'update' so 'sync command' will only affect those files exist in both local and server. Set to 'full', 'sync' will be same as 'download/upload' besides deleting file not exist in origin from target.
+object - Config the behavior of `Sync` command.
 
-#### Default
+### syncOption.delete
 
-update
+boolean - Delete extraneous files from dest dirs.
+
+### syncOption.skipCreate
+
+boolean - Skip creating new files on dest.
+
+### syncOption.ignoreExisting
+
+boolean - Skip updating files that exist on dest.
+
+### syncOption.update
+
+boolean - Update the dest only if a newer version is on the src filesystem.
 
 ### ignore
 
