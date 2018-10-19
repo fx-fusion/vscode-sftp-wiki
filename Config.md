@@ -116,8 +116,14 @@ boolean - upload when file changed
 
 boolean - delete when file removed
 
-### watcher.autoDelete
+### remoteTimeOffsetInHours
+number - The number of hours difference between the local machine and remote/server(remote minus local).
 
+#### Default
+
+0
+
+### concurrency
 number - Lower concurrency could get more stability because some client/server have some sort of configured/hard coded limit.
 
 #### Default
