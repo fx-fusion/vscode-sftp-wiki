@@ -48,6 +48,9 @@ Download file or folders.
 ### KeyBindings Args
 func(fspaths: string[])
 
+## Cancel All Transfers
+Stop the current transfers (upload and download).
+
 ***
 
 # Alt Commands
