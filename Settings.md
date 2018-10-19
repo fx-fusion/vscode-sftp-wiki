@@ -5,7 +5,7 @@ There are a handful of settings available for SFTP, and they can be changed by
 
 
 ## debug
-boolean - Adds debugging output to the SFTP output panel. You can view the logs in `View > Output > sftp`.
+boolean - Adds debugging output to the SFTP output panel. You can view the logs in `View > Output > sftp`. Change this requires VSCode to reload.
 
 ### Default
 false
