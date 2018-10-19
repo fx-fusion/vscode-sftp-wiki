@@ -9,3 +9,9 @@ boolean - Adds debugging output to the SFTP output panel. You can view the logs 
 
 ### Default
 false
+
+## downloadWhenOpenInRemoteExplorer
+boolean - Change the default behavior from `View Content` to `Edit in Local` when opening file in Remote Explorer.
+
+### Default
+false
