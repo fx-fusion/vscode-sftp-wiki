@@ -24,10 +24,6 @@ sftp
 
 string - Hostname or IP address of the server.
 
-#### Default
-
-sftp
-
 ### port
 
 integer - Port number of the server.
@@ -71,6 +67,10 @@ false
 ### syncOption
 
 object - Config the behavior of `Sync` command.
+
+#### Default
+
+`{}`
 
 ### syncOption.delete
 
