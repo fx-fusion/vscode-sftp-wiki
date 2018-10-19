@@ -4,7 +4,7 @@ There are a handful of settings available for SFTP, and they can be changed by
 * On macOS - Code > Preferences > Settings
 
 
-## printDebugLog
+## debug
 boolean - Adds debugging output to the SFTP output panel. You can view the logs in `View > Output > sftp`.
 
 ### Default
