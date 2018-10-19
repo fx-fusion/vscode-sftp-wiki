@@ -117,7 +117,7 @@ boolean - upload when file changed
 boolean - delete when file removed
 
 ### remoteTimeOffsetInHours
-number - The number of hours difference between the local machine and remote/server(remote minus local).
+number - The number of hours difference between the local machine and remote/server. (remote minus local)
 
 #### Default
 
