@@ -1,7 +1,7 @@
 ## SFTP: Config
 Create a new config file for a project.
 
-## Set Profile ⌨️
+## Set Profile
 Set the current profile.
            
 ### KeyBindings Args
@@ -10,8 +10,14 @@ func(profileName: string)
 ## SFTP: Upload Active File
 Upload the current file.
 
+## SFTP: Upload Active Folder
+Upload the entire folder the current file is located in.
+
 ## SFTP: Download Active File
 Download the remote version of the current file and overwrite the local copy.
+
+## SFTP: Download Active Folder
+Download the entire folder the current file is located in.
 
 ## SFTP: Sync Local -> Remote
 1. Any files that exist on both local and remote that have a different timestamp between local and remote are copied over.
@@ -27,13 +33,16 @@ Compare file modification times, and will always perform the action that causes 
 
 *Only [skipCreate](https://github.com/liximomo/vscode-sftp/wiki/Config#syncoptionskipcreate) and [ignoreExisting](https://github.com/liximomo/vscode-sftp/wiki/Config#syncoptionignoreexisting) are valid for this command.*
 
-## sftp.upload ⌨️
+## SFTP: List Active Folder
+List the folder the current file is located in.
+
+## sftp.upload
 Upload file or folders.
 
 ### KeyBindings Args
 func(fspaths: string[])
 
-## sftp.download ⌨️
+## sftp.download
 Download file or folders.
 
 ### KeyBindings Args
