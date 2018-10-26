@@ -6,7 +6,7 @@ string - A string to identify your config.
 
 ### context
 
-string - A path relative to the workspace root folder.
+string - A path relative to the workspace root folder. Using this when you want to map a subfolder to the remotePath.
 
 #### Default
 
