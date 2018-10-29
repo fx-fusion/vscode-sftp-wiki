@@ -51,6 +51,9 @@ func(fspaths: string[])
 ## Cancel All Transfers
 Stop the current transfers (upload and download).
 
+## Open SSH in Terminal
+Open a terminal in VSCode and auto login to a specific server.
+
 ***
 
 # Alt Commands
