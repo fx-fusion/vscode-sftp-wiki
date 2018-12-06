@@ -130,7 +130,7 @@ number - Lower concurrency could get more stability because some client/server h
 
 4
 
-### limitOpenFilesOnServer
+### limitOpenFilesOnRemote
 mixed - Limit open file descriptors to the specific number in a remote server. Set to true for using default limit(222). Do not set this unless you have to.
  
 #### Default
