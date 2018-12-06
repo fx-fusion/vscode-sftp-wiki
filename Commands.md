@@ -10,6 +10,9 @@ func(profileName: string)
 ## SFTP: Upload Active File
 Upload the current file.
 
+## SFTP: Upload Changed Files
+Upload all files changed or created since the last commit to your Git.
+
 ## SFTP: Upload Active Folder
 Upload the entire folder the current file is located in.
 
