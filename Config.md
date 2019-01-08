@@ -123,6 +123,14 @@ number - The number of hours difference between the local machine and remote/ser
 
 0
 
+### remoteExplorer
+
+object.
+
+### remoteExplorer.filesExclude
+
+string[] - Configure patterns for excluding files and folders. The Remote Explorer decides which files and folders to show or hide based on this setting.
+
 ### concurrency
 number - Lower concurrency could get more stability because some client/server have some sort of configured/hard coded limit.
 
