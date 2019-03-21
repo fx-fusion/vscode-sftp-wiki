@@ -65,3 +65,8 @@ Absolute path to your SSH config file.
 #### Default
 
 ~/.ssh/config
+
+
+### sshCustomParams
+
+Extra parameters append to SSH command using by \"Open SSH in Terminal\"。
